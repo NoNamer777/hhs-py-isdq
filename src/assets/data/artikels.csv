@@ -1,4 +1,5 @@
-﻿10000000,"Microsoft                     ","Xbox                          ",NULL,"203,00","5,00",CONSOLE
+﻿barcode,brand,type,title,cost,cost per day,game or console
+10000000,"Microsoft                     ","Xbox                          ",NULL,"203,00","5,00",CONSOLE
 10000001,"Microsoft                     ","Xbox                          ",NULL,"203,00","5,00",CONSOLE
 10000002,"Microsoft                     ","Xbox 360                      ",NULL,"253,75","7,00",CONSOLE
 10000003,"Microsoft                     ","Xbox 360                      ",NULL,"253,75","7,00",CONSOLE

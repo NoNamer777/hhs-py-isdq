@@ -1,3 +1,3 @@
 from .clicommands import *
-from .diagrams import DIAGRAMS
+from .diagrams import *
 from .strings import *

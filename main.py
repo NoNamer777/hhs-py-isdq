@@ -2,11 +2,11 @@
 HHS Project ISDQ
 @author Oscar Wellner, 21144192
 """
+import matplotlib.pyplot as plt
 from os import chdir
 from pathlib import Path
 
 from src.constants import *
-from src.models import Diagram
 
 VALID_INPUTS = tuple([QUIT, HELP, SHOW_DIAGRAM])
 
@@ -40,14 +40,23 @@ def process_input() -> None:
 def show_diagram(diagram_number: str) -> None:
     diagram_nr = str_to_int(diagram_number)
 
-    if diagram_nr > len(DIAGRAMS) or diagram_nr < 1:
+    if diagram_nr > 2 or diagram_nr < 1:
         print(INVALID_DIAGRAM_OPTION_EXCEPTION)
 
-    for idx, diagram in enumerate(DIAGRAMS):
-        if idx + 1 != diagram_nr:
-            continue
+    if diagram_nr == 1:
+        print(DIAGRAM_1_DESCRIPTION)
+        plt.bar(DIAGRAM_1_DATA_X, DIAGRAM_1_DATA_Y)
+        plt.xticks(DIAGRAM_1_DATA_X, DIAGRAM_1_DATA_X, rotation=10)
+        plt.title(DIAGRAM_1_TITLE)
+        plt.show()
+    elif diagram_nr == 2:
+        print(DIAGRAM_2_DESCRIPTION)
+        plt.pie(DIAGRAM_2_DATA_Y, labels=DIAGRAM_2_DATA_Y)
+        plt.title(DIAGRAM_2_TITLE)
+        plt.legend(DIAGRAM_2_DATA_X, bbox_to_anchor=(1.3, 0.1))
+        plt.show()
+        pass
 
-        diagram.show()
 
 def is_valid_input(value: str) -> bool:
     return find_command(value) is not None

@@ -4,7 +4,7 @@ from ..constants.strings import *
 # CLI commands that a user can provide
 QUIT = Command(
     command="quit",
-    aliases=["q", "stop"],
+    aliases=["q", "stop", "exit"],
     short_desc=COMM_QUIT_SHORT_DESC,
     long_desc=COMM_QUIT_SHORT_DESC,
 )

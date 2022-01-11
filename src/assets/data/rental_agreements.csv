@@ -1,4 +1,4 @@
-﻿barcode,starting date,email address,rental status,reparable
+﻿barcode,starting date,email address,rental status,damaged,reparable
 10000002,2014-08-11 00:00:00.000,sit@Etiam.co.uk,2014-08-15 00:00:00.000,"VERHUURD            ",NULL,NULL
 10000004,2017-01-23 00:00:00.000,urna.Nullam.lobortis@tempor.com,2017-01-24 00:00:00.000,"VERHUURD            ",1,1
 10000004,2017-07-08 00:00:00.000,dui.Cum.sociis@diamdictumsapien.ca,2017-07-18 00:00:00.000,"VERHUURD            ",1,1

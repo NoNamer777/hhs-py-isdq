@@ -1,20 +1,6 @@
-﻿role,username
-"Directie            ","noodles        "
-"Filiaalmanager      ","cereals        "
-"Medewerker          ","cereals        "
-"Medewerker          ","noodles        "
-"Medewerker          ","pasta          "
-"Medewerker          ","pies           "
-"Medewerker          ","salads         "
-"Medewerker          ","sandwiches     "
-"Medewerker          ","seafood        "
-"Medewerker          ","soups          "
-"Reparateur          ","cereals        "
-"Reparateur          ","desserts       "
-"Reparateur          ","sandwiches     "
-"Reparateur          ","seafood        "
-"Reparateur          ","soups          "
-"Reparateur          ","stews          "
-"Voorraadbeheerder   ","cereals        "
-"Voorraadbeheerder   ","noodles        "
-"Voorraadbeheerder   ","soups          "
+﻿role,number of employees
+"Directie            ",1
+"Filiaalmanager      ",1
+"Medewerker          ",8
+"Reparateur          ",6
+"Voorraadbeheerder   ",3
